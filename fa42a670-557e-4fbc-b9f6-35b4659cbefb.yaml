@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: fa42a670-557e-4fbc-b9f6-35b4659cbefb
+  loglevel: INFO
+  name: '1212'
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: ls
+    keepgoing: false
+    strategy: node-first
+  uuid: fa42a670-557e-4fbc-b9f6-35b4659cbefb
+
